@@ -1,0 +1,8 @@
+.vertical {
+  border-left: 0.5px solid;
+  height: 56px;
+}
+.vertical2 {
+  border: 0.5px solid;
+  height: 0px;
+}

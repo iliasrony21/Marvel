@@ -1,0 +1,26 @@
+.imagess {
+  filter: brightness(60%);
+}
+.caroheight {
+  height: 725px;
+}
+.caroheights {
+  height: 580px;
+}
+.buttons {
+  border-radius: none;
+  background-color: #e8383c;
+  border: none;
+  --edge-size: 1.2em;
+
+  clip-path: polygon(
+    0% var(--edge-size),
+    var(--edge-size) 0,
+    100% 0%,
+    100% calc(100% - var(--edge-size)),
+    calc(100% - var(--edge-size)) 100%,
+    0 100%
+  );
+
+  /* background: linear-gradient(to bottom right, transparent 100%, white 100%); */
+}
